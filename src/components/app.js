@@ -3,8 +3,10 @@ import React, { Component } from "react";
 //material-ui
 import Grid from "@material-ui/core/Grid";
 import Paper from "@material-ui/core/Paper";
+import Typography from "@material-ui/core/Typography";
 
 // components
+import SearchBar from "./search_bar";
 import NavBar from "./material-ui/NavBar";
 import PaperSheet from "./material-ui/PaperSheet";
 import InsetDividers from "./material-ui/InsetDividers";
@@ -24,8 +26,13 @@ export default class App extends Component {
           </Grid>
         </Grid>
         <br />
-        <Paper style={{ marginTop: "20px" }}>
-          <h1>code.</h1>
+        <Paper style={{ marginTop: "20px", padding: "20px" }}>
+          <Typography variant="headline" component="h1">
+            code...
+          </Typography>
+          <div>
+            <SearchBar />
+          </div>
         </Paper>
       </div>
     );
