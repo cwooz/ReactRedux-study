@@ -1,7 +1,8 @@
 import React, { Component } from "react";
-import ReactDOM from "react-dom";
+// import ReactDOM from "react-dom";
 //material-ui
 import Grid from "@material-ui/core/Grid";
+import Paper from "@material-ui/core/Paper";
 
 // components
 import NavBar from "./NavBar";
@@ -22,6 +23,10 @@ export default class App extends Component {
             <PaperSheet />
           </Grid>
         </Grid>
+        <br />
+        <Paper style={{ marginTop: "20px" }}>
+          <h1>code.</h1>
+        </Paper>
       </div>
     );
   }
