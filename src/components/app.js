@@ -5,9 +5,9 @@ import Grid from "@material-ui/core/Grid";
 import Paper from "@material-ui/core/Paper";
 
 // components
-import NavBar from "./NavBar";
-import PaperSheet from "./PaperSheet";
-import InsetDividers from "./InsetDividers";
+import NavBar from "./material-ui/NavBar";
+import PaperSheet from "./material-ui/PaperSheet";
+import InsetDividers from "./material-ui/InsetDividers";
 
 export default class App extends Component {
   render() {
