@@ -1,25 +1,13 @@
-# ReduxSimpleStarter
+# [ReactRedux-study](https://morning-cove-22376.herokuapp.com/)
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+Basic React/Redux app, powered by [material-ui](https://material-ui.com/).
 
-### Getting Started
+##### Try version `1.0.0-beta` using the following [link](https://morning-cove-22376.herokuapp.com/). Thanks!
 
-There are two methods for getting started with this repo.
+## Built Using
 
-#### Familiar with Git?
-Checkout this repo, install dependencies, then start the gulp process with the following:
-
-```
-> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
-> cd ReduxSimpleStarter
-> npm install
-> npm start
+```javascript
+import { React, Redux, MaterialUI, Styled-Components } from "dependencies";
 ```
 
-#### Not Familiar with Git?
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
-```
-> npm install
-> npm start
-```
+<img alt='Screen Shot' src="https://farm2.staticflickr.com/1851/44242225242_104402c9b6_o.jpg" width="666">
