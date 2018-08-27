@@ -1,8 +1,8 @@
 /node_modules
+/src/index.js
 bundle.js
 npm-debug.log
 .DS_Store
-/src\index.js
 
 # IntelliJ
 *.iml
